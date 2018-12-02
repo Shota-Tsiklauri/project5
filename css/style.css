@@ -1,0 +1,57 @@
+.photo{
+	width:100px;
+	float:left;
+	margin-left:130px;
+	margin-top:30px;
+}
+.photo1{
+	width:1070px;
+	margin-left:130px;
+	margin-top:30px;
+}
+.inlineblock{
+	display:inline-block;
+}
+.conteiner1{
+	background-size:1370px;
+	background-color:grey;
+	
+}
+.conteiner2{
+	background-size:1370px;
+	background-color:lightgrey;
+	
+}
+.nav{
+	float:right;
+	margin-top:30px;
+	margin-right:170px;
+ text-decoration:none;
+ font-size:22px;
+
+}
+.nav-ul{
+	text-decoration:none;
+
+}
+.nav-li{
+background-color:lightpink;
+}
+.nav-li::after {
+	content:" ";
+	width:2px;
+	height:22px;
+	background-color:blue;
+	display:inline-block;
+}
+.clear{
+	clear:both;
+}
+.social{
+	width:22px;
+	height:22px;
+	float:right;
+}
+.active{
+	color:red;
+}
